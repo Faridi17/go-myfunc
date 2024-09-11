@@ -1,14 +1,14 @@
 package go_my_func
 
-func getHello(name string) string {
+func GetHello(name string) string {
 	return "Hello " + name
 }
 
-func getFullName() (string, string) {
+func GetFullName() (string, string) {
 	return "Azka", "Faridi"
 }
 
-func getCompleteName() (firstName, middleName, lastName string) {
+func GetCompleteName() (firstName, middleName, lastName string) {
 	firstName = "Muhammad"
 	middleName = "Azka"
 	lastName = "Faridi"
@@ -16,7 +16,7 @@ func getCompleteName() (firstName, middleName, lastName string) {
 	return firstName, middleName, lastName
 }
 
-func sumAll(numbers ...int) int {
+func SumAll(numbers ...int) int {
 	total := 0
 
 	for _, number := range numbers {
@@ -26,6 +26,6 @@ func sumAll(numbers ...int) int {
 	return total
 }
 
-func getGoodBye(name string) string {
+func GetGoodBye(name string) string {
 	return "Good Bye " + name
 }
